@@ -52,7 +52,7 @@ namespace Orange_Market.DA
 
         public DbSet<Usuario> Usuario { get; set; }
 
-        public DbSet<Venta> Venta { get; set; }
+       
 
         public ContextoDeBaseDeDatos(DbContextOptions<ContextoDeBaseDeDatos> options) : base(options)
         {
